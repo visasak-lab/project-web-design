@@ -452,72 +452,76 @@ footer p{
     z-index: 1000;
   }
 
-#menu-toggle:checked + .hamburger + ul.menu {
-    left: 0;
-  }
-
-.container-logo p {
-    font-size: 20px;
-  }
-#leaf {
-    width: 30px;
-  }
-}
-.contact-info {
-    max-width: 100%;
-    text-align: left;
-  }
-.contact-info h3 {
-    font-size: 16px;
-  }
-.contact-info p,
-.contact-info a {
-    font-size: 13px;
-    line-height: 1.4;
-  }
-.contact-info div {
-    margin-bottom: 15px;
-  }
-
-.social-icons {
-    gap: 10px;
-    margin-top: 10px;
-  }
-.social-icons a {
-    width:30px;
-    height: 30px;
-    font-size: 16px;
-  }
-
-.map-container iframe {
-    height: 230px;
-  }
-
-.img p {
-    font-size: 60px;
-  }
-@media (max-width: 428px) {
-.product-details{
-        flex-direction: column-reverse;
-        height: 100vh !important;
+    #menu-toggle:checked + .hamburger + ul.menu {
+        left: 0;
     }
-.in p{
-    font-size: 20px;
-}
-.product-contener .product-card{
-    width: 200px;
-    height: 270px;
+
+    .container-logo p {
+        font-size: 20px;
+    }
+    #leaf {
+        width: 30px;
+    }
+    .contact-info {
+        max-width: 100%;
+        text-align: left;
+    }
+    .contact-info h3 {
+        font-size: 16px;
+    }
+    .contact-info p,
+    .contact-info a {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+    .contact-info div {
+        margin-bottom: 15px;
+    }
+
+    .social-icons {
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .social-icons a {
+        width:30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .map-container iframe {
+        height: 230px;
+    }
+
+    .img p {
+        font-size: 60px;
+    }
+    
+    .product-details{
+            flex-direction: column-reverse;
+            height: 100vh !important;
+        }
+    .in p{
+        font-size: 20px;
+    }
+    .product-contener .product-card{
+        width: 200px;
+        height: 270px;
+    }
+  .img {
+    height: 40vh;
+    margin-top: 80px;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .footer-gallery{
+    order: 4;
+  }
 }
 
-}
-@media (max-width: 428px) {
-  .img {
-    height: 25vh;              
-    font-size: 36px;           
-    margin-top: 80px;          
-    box-shadow: 0 2px 12px rgba(76,175,80,0.15);
-    background-size: cover;
-    background-position: center;
-    padding: 0 10px;
-  }
+@media (min-width: 428px) and (max-width: 820px){
+    .meandyou{
+        margin-top: -210px;
+    }
 }
